@@ -21,7 +21,8 @@ from bs4 import BeautifulSoup
 from googletrans import Translator
 import youtube_dl
 #import pyimgflip
-
+#บอทอยู่ในช่วงทดลองผิดอะไรก้ขอโทษค้วยครับ
+#PEA แมวเป้ 🔰 ไร้สังกัด
 cl = LineClient(authToken="")
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
@@ -204,12 +205,12 @@ wait = {
             "statusMessage": ""
             },
     "unsend":False,
-    "mention":"🕵 SELFBOT-BY:MAX 🕵",
-    "Respontag":"🕵 SELFBOT-BY:MAX 🕵",
-    "welcome":"🕵 SELFBOT-BY:MAX 🕵",
+    "mention":"แมวเป้🔰ไร้สังกัด",
+    "Respontag":"แมวเป้🔰ไร้สังกัด",
+    "welcome":"แมวเป้🔰ไร้สังกัด",
     "leave":"Slamat tinggal sobat\nsmoga ktmu di lain hari nanti",
-    "comment":"🕵 SELFBOT-BY:MAX 🕵",
-    "message":"🕵 SELFBOT-BY:MAX 🕵"
+    "comment":"แมวเป้🔰ไร้สังกัด",
+    "message":"แมวเป้🔰ไร้สังกัด"
 }
 read = {
     "readPoint":{},
@@ -503,7 +504,7 @@ def help():
                   "🇹🇭❂͜͡➣ " + key + "Antijs stay\n" + \
                   "🇹🇭❂͜͡➣ " + key + "Ghost in\n" + \
                   "🇹🇭❂͜͡➣ กรุณาใส่เครื่องหมาย / นำหน้าคำสั่งที่เป็นภาษาไทย\n" + \
-                  "🇹🇭❂͜͡➣ BY: SELFBOT-BY:MAX"
+                  "🇹🇭❂͜͡➣ BY: แมวเป้🔰ไร้สังกัด"
 
     return helpMessage
 
